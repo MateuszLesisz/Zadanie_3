@@ -15,14 +15,6 @@ public class NumbersFromUser {
         return secondNumberOfRange;
     }
 
-    public static void setFirstNumberOfRange(int firstNumberOfRange) {
-        NumbersFromUser.firstNumberOfRange = firstNumberOfRange;
-    }
-
-    public static void setSecondNumberOfRange(int secondNumberOfRange) {
-        NumbersFromUser.secondNumberOfRange = secondNumberOfRange;
-    }
-
     public static int firstNumber() {
         while (variable) {
             try {
