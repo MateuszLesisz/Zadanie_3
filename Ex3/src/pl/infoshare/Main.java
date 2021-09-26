@@ -7,7 +7,10 @@ public class Main {
     public static void main(String[] args) {
         NumbersFromUser.firstNumber();
         NumbersFromUser.secondNumber();
-//        System.out.println("Rozpoczęcie losowania." + );
+        NumbersFromUser.writeMethod();
+        System.out.println();
+        Lotto.generowanieRandomowejLiczby();
+
 
 
 
