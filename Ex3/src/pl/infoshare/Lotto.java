@@ -1,18 +1,19 @@
 package pl.infoshare;
 
-import java.util.LinkedList;
-import java.util.Random;
+import java.util.*;
 
 public class Lotto {
 
-    public static void generowanieRandomowejLiczby() {
-        int[] Array = new int[NumbersFromUser.getSecondNumberOfRange()];
-        for (int i = 0; i<Array.length; i++) {
-            Random randomNumber = new Random();
-            int number = randomNumber.nextInt(NumbersFromUser.getFirstNumberOfRange()) + 1;
-            Array[i] = number;
 
-            System.out.println(number);
+    public static void generowanieRandomowejLiczby() {
+        ArrayList numbers  = new ArrayList();
+        for (int i = 0; i < NumbersFromUser.getFirstNumberOfRange(); i++) {
+            numbers.add(i+1);
+        }
+        Collections.shuffle(numbers);
+
+        for(int j = 0; j < NumbersFromUser.getSecondNumberOfRange(); j++) {
+            System.out.println(numbers.get((j)));
         }
     }
 
