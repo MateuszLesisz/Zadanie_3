@@ -5,7 +5,7 @@ import java.util.*;
 public class Lotto {
 
 
-    public static void generowanieRandomowejLiczby() {
+    public static void randomNumber() {
         ArrayList numbers  = new ArrayList();
         for (int i = 0; i < NumbersFromUser.getFirstNumberOfRange(); i++) {
             numbers.add(i+1);

@@ -9,7 +9,7 @@ public class Main {
         NumbersFromUser.secondNumber();
         NumbersFromUser.writeMethod();
         System.out.println();
-        Lotto.generowanieRandomowejLiczby();
+        Lotto.randomNumber();
 
 
 
