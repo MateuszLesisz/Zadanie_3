@@ -1,4 +1,4 @@
-# Zadanie_3# Zadanie 3 - Podstawy programowania Java SE
+Zadanie 3 - Podstawy programowania Java SE
 #### Zakres: pętle, instrukcje warunkowe, wyjątki, pobieranie danych z konsoli + git (pull request)
 
 
